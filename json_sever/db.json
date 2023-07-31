@@ -1,0 +1,210 @@
+{
+  "danhmucs": [
+    {
+      "id_danhmuc": 1,
+      "name_danhmuc": "Tất cả",
+      "id": 1
+    },
+    {
+      "id_danhmuc": 2,
+      "name_danhmuc": "Nike",
+      "id": 2
+    },
+    {
+      "id_danhmuc": 3,
+      "name_danhmuc": "Addias",
+      "id": 3
+    },
+    {
+      "id_danhmuc": 4,
+      "name_danhmuc": "Converse",
+      "id": 4
+    },
+    {
+      "id_danhmuc": 5,
+      "name_danhmuc": "Sneakers",
+      "id": 5
+    },
+    {
+      "id_danhmuc": "123",
+      "name_danhmuc": "Hieule",
+      "id": 6
+    },
+    {
+      "id_danhmuc": "34",
+      "name_danhmuc": "Thử thôi",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "id_sanpham": "1",
+      "name_sanpham": "Altra Men's Olympus 4",
+      "giasale": "200",
+      "giagoc": "300",
+      "quantity": "10",
+      "image": "./img/sanpham/spnew/new1.png",
+      "id": 1
+    },
+    {
+      "id_sanpham": "2",
+      "name_sanpham": "Nike Air Force 1",
+      "giasale": "320",
+      "giagoc": "410",
+      "quantity": "1",
+      "image": "./img/sanpham/spnew/new2.png",
+      "id": 2
+    },
+    {
+      "id_sanpham": "3",
+      "name_sanpham": "Mundial Team Football Boots",
+      "giasale": "280",
+      "giagoc": "350",
+      "quantity": "1",
+      "image": "./img/sanpham/spnew/new3.png",
+      "id": 3
+    },
+    {
+      "id_sanpham": "4",
+      "name_sanpham": "Converse All Star Hi Cordura",
+      "giasale": "510",
+      "giagoc": "705",
+      "quantity": "1",
+      "image": "./img/sanpham/spnew/new4.png",
+      "id": 4
+    },
+    {
+      "id_sanpham": "",
+      "name_sanpham": "",
+      "giasale": "",
+      "giagoc": "",
+      "quantity": "1",
+      "image": "",
+      "id": 5
+    },
+    {
+      "id_sanpham": "6",
+      "name_sanpham": "Adidas originals Multix Blac",
+      "giasale": "320",
+      "giagoc": "410",
+      "quantity": "1",
+      "image": "./img/sanpham/spnew/new6.png",
+      "id": 6
+    },
+    {
+      "id_sanpham": "12",
+      "name_sanpham": "Hiêuue",
+      "giasale": "234",
+      "giagoc": "",
+      "quantity": "1",
+      "image": "",
+      "id": 7
+    },
+    {
+      "id_sanpham": "8",
+      "name_sanpham": "Altra Women's Lone Peak 6",
+      "giasale": "510",
+      "giagoc": "705",
+      "quantity": "1",
+      "image": "./img/sanpham/spnew/new8.png",
+      "id": 8
+    },
+    {
+      "id_sanpham": "12",
+      "name_sanpham": "hÀO",
+      "giasale": "123",
+      "giagoc": "345",
+      "quantity": "1",
+      "image": "C:\\fakepath\\PS24647-Lê-Văn-Hiếu_1.jpg",
+      "id": 9
+    }
+  ],
+  "giohang": [
+    {
+      "id": 1,
+      "sanpham": [
+        {
+          "id": 1,
+          "name": "Áo thun nam",
+          "price": 200000,
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Quần jean nam",
+          "price": 500000,
+          "quantity": 1
+        }
+      ],
+      "total": 900000
+    }
+  ],
+  "muahang": [
+    {
+      "id": 1,
+      "date": "2023-05-31",
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "đ 1.888.000",
+      "user": {
+        "name": "Nguyen Van A",
+        "email": "nguyenvana@example.com",
+        "phone": "0901234567",
+        "address": "Số 1 Đường ABC, Phường XYZ, Quận TUV, Thành phố HCM"
+      },
+      "status": "success"
+    },
+    {
+      "id": 1,
+      "date": "2023-05-31",
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total": "đ 1.888.000",
+      "user": {
+        "name": "Nguyen Van A",
+        "email": "nguyenvana@example.com",
+        "phone": "0901234567",
+        "address": "Số 1 Đường ABC, Phường XYZ, Quận TUV, Thành phố HCM"
+      },
+      "status": "cancelled"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "fullName": "John Doe",
+      "email": "john_doe@example.com",
+      "phone": "0901234567",
+      "address": "Số 1 Đường ABC, Phường XYZ, Quận TUV, Thành phố HCM",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin123",
+      "fullName": "LeVanHieu",
+      "email": "jane_doe@example.com",
+      "phone": "0909876543",
+      "address": "Số 2 Đường DEF, Phường UVW, Quận XYZ, Thành phố HCM",
+      "role": 0
+    }
+  ]
+}

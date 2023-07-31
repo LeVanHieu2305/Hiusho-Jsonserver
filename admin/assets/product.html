@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/product.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Admin Dashboard Panel</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Bảng điều khiển</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./category.html">
+                        <i class="uil uil-files-landscapes"></i>
+                        <span class="link-name">Danh mục</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html" class="nav-active">
+                        <i class="uil uil-store"></i>
+                        <span class="link-name">Sản phẩm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./user.html">
+                        <i class="uil uil-comments"></i>
+                        <span class="link-name">Bình luận</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-user"></i>
+                        <span class="link-name">Tài khoản</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li>
+                    <a href="#">
+                        <i class="uil uil-signout signout--active"></i>
+                        <span class="link-name signout--active">Đăng xuất</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Sáng tối</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search here...">
+            </div>
+
+            <div class="bell-user">
+                <li class="hide-on-pc header__navbar-fonticon-list header__wrap">
+                    <div class="header__navbar-fonticon-link icon__wrap">
+                        <a href="#">
+                            <i class="header__navbar-fonticon-icon uil uil-bell"></i>
+                            <span class="header__icon-notice">3</span>
+                        </a>
+
+                        <!-- No icon class = header__icon-list--no-icon -->
+                        <div class="header__list">
+                            <img src="assets/img/no-cart.png" alt="" class="header__icon-list--no-icon header__icon-no-icon-img">
+                            <span class="header__icon-list--no-icon header__icon-list--no-icon-msg">Chưa có sản phẩm</span>
+
+                            <!-- Have icon -->
+                            <h4 class="header__icon-heading">Thông báo mới nhận</h4>
+                            <ul class="header__icon-list-items">
+                                <li class="header__icon-item">
+                                    <img src="./img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="header__icon-item">
+                                    <img src="./img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__icon-item">
+                                    <img src="./img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <!-- <a href="./cart.html" class="header__icon-view-icon btn btn--primary btn-color-white">Xem giỏ hàng</a> -->
+                        </div>
+                    </div>
+                </li>
+
+                <div class="user">
+                    <img src="./img/avater.jpg" alt="" class="nav__table-mobile-avatar-img">
+                </div>
+            </div>
+
+        </div>
+
+        <!--<img src="images/profile.jpg" alt="">-->
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-store"></i>
+                    <span class="text">Sản phẩm</span>
+                </div>
+                <div class="category__product">
+                    <h2 class="home__product-heading">Danh mục sản phẩm</h2>
+                    <div class="custom-select">
+                        <select name="" id="">
+                            <option value="0">Tất cả</option>
+                            <option value="1">Nike</option>
+                            <option value="2">Addias</option>
+                            <option value="3">Converse</option>
+                            <option value="4">Sneakers</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="boxes">
+
+                    <div class="box">
+                        <span class="text">Mã sản phẩm</span>
+                        <input type="number" class="number" name="id_sanpham">
+                    </div>
+                    <div class="box">
+                        <span class="text">Tên sản phẩm</span>
+                        <input type="text" class="number" name="name_sanpham">
+                    </div>
+                    <div class="box">
+                        <span class="text">Giảm giá</span>
+                        <input type="number" name="giasale">
+                    </div>
+                    <div class="box">
+                        <span class="text">Giá gốc</span>
+                        <input type="number" name="giagoc">
+                    </div>
+                    <div class="box">
+                        <span class="text">Số lượng</span>
+                        <input type="number" min="1" max="50" value="1" name="quantity">
+                    </div>
+                    <div class="box">
+                        <span class="text">Hình ảnh</span>
+                        <input type="file" class="non-border" name="image">
+                    </div>
+                    <div class="box">
+                        <button id="themmoi" class="box2">Thêm mới</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Tất cả sản phẩm</span>
+                </div>
+
+                <div class="row_table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Hình ảnh</th>
+                                <th>Số lượng</th>
+                                <th>Giá gốc</th>
+                                <th>Giảm giá</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table__item">
+                            <tr class="table__list">
+                        </tbody>
+
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="selects">
+                    <div class="select select1">
+                        <input type="checkbox" class="checkbox">
+                        <span class="text">Chọn tất cả</span>
+                    </div>
+                    <div class="select select2">
+                        <input type="checkbox" class="checkbox">
+                        <span class="text">Bỏ chọn tất cả</span>
+                    </div>
+                    <div class="select select3">
+                        <input type="checkbox" class="checkbox">
+                        <span class="text">Nhập thêm</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Admin Dashboard Panel</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li>
+                    <a href="#" class="nav-active">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Bảng điều khiển</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./assets/category.html">
+                        <i class="uil uil-files-landscapes"></i>
+                        <span class="link-name">Danh mục</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./assets/product.html">
+                        <i class="uil uil-store"></i>
+                        <span class="link-name">Sản phẩm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-comments"></i>
+                        <span class="link-name">Bình luận</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./assets/user.html">
+                        <i class="uil uil-user"></i>
+                        <span class="link-name">Tài khoản</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li>
+                    <a href="#">
+                        <i class="uil uil-signout signout--active"></i>
+                        <span class="link-name signout--active">Đăng xuất</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Sáng tối</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search here...">
+            </div>
+
+            <div class="bell-user">
+                <li class="hide-on-pc header__navbar-fonticon-list header__wrap">
+                    <div class="header__navbar-fonticon-link icon__wrap">
+                        <a href="#">
+                            <i class="header__navbar-fonticon-icon uil uil-bell"></i>
+                            <span class="header__icon-notice">3</span>
+                        </a>
+
+                        <!-- No icon class = header__icon-list--no-icon -->
+                        <div class="header__list">
+                            <img src="assets/img/no-cart.png" alt="" class="header__icon-list--no-icon header__icon-no-icon-img">
+                            <span class="header__icon-list--no-icon header__icon-list--no-icon-msg">Chưa có sản phẩm</span>
+
+                            <!-- Have icon -->
+                            <h4 class="header__icon-heading">Thông báo mới nhận</h4>
+                            <ul class="header__icon-list-items">
+                                <li class="header__icon-item">
+                                    <img src="./assets/img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="header__icon-item">
+                                    <img src="./assets/img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__icon-item">
+                                    <img src="./assets/img/avatar_user.jpg" alt="" class="header__icon-img">
+                                    <div class="header__icon-item-info">
+                                        <div class="header__icon-item-head">
+                                            <h5 class="header__icon-item-name">Sản phẩm của bạn đang có lượt tương tác cực cao</h5>
+                                            <!-- <div class="header__icon-item-price-wrap">
+                                                <span class="header__icon-item-price">đ 499.000</span>
+                                                <span class="header__icon-item-multiply">x</span>
+                                                <span class="header__icon-item-qnt">1</span>
+                                            </div> -->
+                                        </div>
+                                        <div class="header__icon-item-body">
+                                            <span class="header__icon-item-description">Phân loại: Sản phẩm</span>
+                                            <span class="header__icon-item-remove">Xóa</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <!-- <a href="./cart.html" class="header__icon-view-icon btn btn--primary btn-color-white">Xem giỏ hàng</a> -->
+                        </div>
+                    </div>
+                </li>
+
+                <div class="user">
+                    <img src="./assets/img/avater.jpg" alt="" class="nav__table-mobile-avatar-img">
+                </div>
+            </div>
+
+        </div>
+
+        <!--<img src="images/profile.jpg" alt="">-->
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Thống kê</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-store"></i>
+                        <span class="text">Sản phẩm</span>
+                        <span class="number">50,120</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-user"></i>
+                        <span class="text">Tài khoản</span>
+                        <span class="number">20,120</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-money-bill"></i>
+                        <span class="text">Doanh thu</span>
+                        <span class="number">10,120</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Hoạt động gần đây</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Họ và tên</span>
+                        <span class="data-list">Prem Shahi</span>
+                        <span class="data-list">Deepa Chand</span>
+                        <span class="data-list">Manisha Chand</span>
+                        <span class="data-list">Pratima Shahi</span>
+                        <span class="data-list">Man Shahi</span>
+                        <span class="data-list">Ganesh Chand</span>
+                        <span class="data-list">Bikash Chand</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Email</span>
+                        <span class="data-list">premshahi@gmail.com</span>
+                        <span class="data-list">deepachand@gmail.com</span>
+                        <span class="data-list">prakashhai@gmail.com</span>
+                        <span class="data-list">manishachand@gmail.com</span>
+                        <span class="data-list">pratimashhai@gmail.com</span>
+                        <span class="data-list">manshahi@gmail.com</span>
+                        <span class="data-list">ganeshchand@gmail.com</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Tham gia</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-13</span>
+                        <span class="data-list">2022-02-13</span>
+                        <span class="data-list">2022-02-14</span>
+                        <span class="data-list">2022-02-14</span>
+                        <span class="data-list">2022-02-15</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Loại</span>
+                        <span class="data-list">Mới</span>
+                        <span class="data-list">Thành viên</span>
+                        <span class="data-list">Thành viên</span>
+                        <span class="data-list">Mới</span>
+                        <span class="data-list">Thành viên</span>
+                        <span class="data-list">Mới</span>
+                        <span class="data-list">Thành viên</span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Trạng thái</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                        <span class="data-list">Liked</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
